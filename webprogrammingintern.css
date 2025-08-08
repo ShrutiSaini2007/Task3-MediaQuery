@@ -1,0 +1,100 @@
+
+        #container{
+    justify-content:space-evenly;
+    display:flex;
+    height:60px;
+    padding-top:30px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:25px;
+    color:white;
+    background-color:purple;
+    box-shadow: 6px 6px 8px violet;
+}
+h1{
+    padding-top:40px;
+    font-family:Gabriola;
+    line-height: 40px;
+    font-size:40px;
+}
+button{
+    border:3px purple solid;
+    border-radius:20px;
+    font-size:16px;
+    color:white;
+    background-color: darkorchid;
+    transition:all 0.3s linear 0s;
+    box-shadow: 2px 2px 3px violet;
+}
+button:hover{
+font-size:20px;
+color:white;
+box-shadow: 5px 5px 7px violet;
+}
+h2{
+    font-size:25px;
+    text-decoration:underline;
+}
+footer{
+    background-color:darkorchid;
+}
+body{
+    background-color:lightpink;
+}
+p{
+    font-size: 20px;;
+}
+h4{
+    color:rgb(128, 0, 100);
+    font-size: 20px;
+}
+@media(max-width:768px){
+    
+
+ #container{
+    justify-content:space-evenly;
+    display:flex;
+    height:30px;
+    padding-top:20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:15px;
+    color:white;
+    background-color:purple;
+    box-shadow: 4px 4px 6px violet;
+}
+h1{
+    padding-top:40px;
+    font-family:Gabriola;
+    line-height: 40px;
+    font-size:40px;
+
+}
+h4{
+    color:rgb(128, 0, 100);
+    font-size: 16px;
+}
+button{
+    border:3px purple solid;
+    border-radius:20px;
+    font-size:20px;
+    color:white;
+    background-color: darkorchid;
+    transition:all 1s linear 0s;
+}
+button:hover{
+font-size:24px;
+color:white;
+box-shadow:2px 2px 3px violet;
+}
+h2{
+    font-size:20px;
+    text-decoration: underline;
+}
+footer{
+    background-color:darkorchid;
+}
+body{
+    background-color:rgb(255, 182, 223);
+}p{
+    font-size: 15px;;
+}
+}
